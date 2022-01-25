@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
+}
+
+/* MAIN */
+
+
+.bcg-pic1{
+    background: url(../media/vegetables-set-left-black-slate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 7rem;
+    margin-bottom: -5rem;
+}
+.bcg-pic2{
+    background: url(../media/1000_F_314996803_zGSAPzz4a1aXRGETQU4rPEqmgizeOz5D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 7rem;
+    margin-bottom: -5rem;
+}
+.bcg-pic3{
+    background: url(../media/vegetables-set-left-black-slate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 7rem;
+    margin-bottom: -5rem;
+}
+.header-div{
+    /* --bs-gutter-x: 0.3rem !important; */
+    width: 100%;
+    margin: 0px;
+}
+.main-bottom-indicator{
+    color: white;
+}
+.indicator-box{
+    margin: 5rem 5rem;
+}
+.logo-pic{
+    
+    /* background: url(../media/vegetables-set-left-black-slate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 75%;
+    margin: 0px;
+    padding: 0px;
+}
+.logo-pot{
+    z-index: 2;
+    position: absolute;
+}
+.main-heading{
+    color: white;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1.5rem 0rem;
+}
+.main-description{
+    color: white;
+    line-height: 1.5rem;
+}
+.order-main-button {
+    color: white;
+    text-decoration: none;
+    background-color: #DFC023;
+    padding: 0.8rem 2rem;
+    border-radius: 1rem;
+}
+.order-main-button:hover{
+    color: black;
+    text-decoration: none;
+}
+.order-button-div{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+img{
+    width: 100%;
+}
+.home-div {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 0rem 1rem 2rem;
+    margin: -2rem 0rem -3rem -4rem;
+    border-radius: 1rem;
+}
+.home-div a{
+    color: #DFC023;
+}
+.home-nav{
+    background-color: #DFC023 !important;
+}
+.home-nav:hover{
+    background-color: transparent !important;
+    color: #DFC023;
+}
+.tab-text-colour{
+    color: #DFC023;
+    border: none;
+    box-shadow: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.nav-tabs {
+    border-bottom: 1px transparent;
+    width: 80%;
+    background-color: rgba(0,0,0,0.35);
+    /* background: rgba(0, 0, 0, 0.35); */
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.nav-link:visited{
+    color: #DFC023;
+}
+.nav-link:hover{
+    color: white;
+}
+#about{
+    transition: 1s ease;
+    transform-origin: 50% 50% 0px;
+}
+
+
+ /* nav header */
+
+
+ .navbar-dark .navbar-nav .nav-link {
+    color: #DFC023;
+}
+ .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+    color: #DFC023;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../media/toggle-images-removebg-preview.png);
+   
+}
+.toggle-bar-test {
+    width: 80%;
+}
+.bg-dark {
+    background-color: rgba(0,0,0,0.35) !important;
+}
+/* .menu-nav-link-colour {
+    color: yellow;
+}
+.menu-nav-link-colour:hover {
+    color: white;
+} */
+
+.navbar-logo-height {
+    margin-top: -0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION-MAIN */
+
+
+
+.celebration-div{
+    margin: 0px;
+    padding: 0px;
+}
+.celebration-pic{
+    width: 135%;
+    margin-top: -2rem;
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+@media (max-width :770px){
+
+    .celebration-pic{
+        display: none;
+    }
+    .bcg-pic1{
+        background-image: url(../media/Kheema-Biryani.jpg);
+        background-size: cover;
+    }
+    .bcg-pic2{
+        background-image: url(../media/healthy-non-veg-food-chicken.jpg);
+        background-size: cover;
+    }
+    .bcg-pic3{
+        background-image: url(../media/meals.jpg);
+        background-size: cover;
+    }
+}
+
+
+
+
+
+/* TODAY'S SPECIAL */
+
+
+
+.secondary-heading {
+    margin: 3rem;
+    padding: 0px;
+}
+.w-auto {
+    width: 20%!important;
+}
+.special-image{
+    margin: 0px !important;
+    padding: 0px;
+}
+
+
+/* RESERVATION */
+
+
+.reservation-border{
+    border: 1px solid black;
+    padding: 2.5rem 2.5rem 1rem 2.5rem;
+}
+.form-reservation{
+    font-size: 0.8rem;
+}
+.form-row-height{
+    margin: 1.5rem 0rem;
+}
+.form-control {
+    border: 1px solid #000;
+    background-color: #ededed;
+}
+.btn-warning {
+    padding: 0.5rem 2rem;
+}
+#reservation label{
+    font-size: 1rem;
+}
+
+
+/* CATERING */
+
+.catering-para {
+    text-align: justify;
+    padding: 0rem 1.2rem;
+    color: #DFC023;
+    font-size: 0.9rem;
+}
+.catering-card-inner-row{
+    --bs-gutter-x: 0rem !important;
+    background-color: #245224;
+}
+.catering-h2{
+    margin: 1rem 0rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #DFC023;
+}
+.catering-cards{
+    transition: 0.4s ease;
+}
+.catering-cards:hover{
+    transform: scale(1.2);
+    /* transition: 0.5s ease; */
+}
+#catering-service .row{
+    --bs-gutter-x: 0 rem;
+}
+
+@media (max-width :992px){
+    .catering-cards{
+        margin: 2rem;
+    }
+}
+
+
+
+/* FOOTER */
+
+
+.footer-section{
+     background-color: #4E4E4E;
+     margin-top: 4rem;
+     padding: 2rem 2rem 1rem 2rem;
+}
+.footer-section a,.footer-section h5,.footer-section p,.footer-section hr{
+    text-decoration: none;
+    color: white;
+}
+.footer-section p{
+    margin: 0.2rem;
+}
+.footer-section input{
+    margin-top: 0.4rem;
+}
+.footer-input{
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    padding: 0.6rem;
+    border: none;
+}
+.footer-btn{
+    background-color: #FFCA2C;
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+}
+.footer-icons{
+    font-size: 1.8rem;
+    color: #FFCA2C;
+    margin: 0rem 0.3rem;
+}
+.footer-arrow{
+    border: 1px solid white;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+@media (max-width :992px){
+    .footer-icons{
+        display: none;
+    }
+    .footer-display{
+        display: none;
+    }
+}
+
+@media (max-width :770px){
+    .footer-display{
+        display: none;
+    }
+    .footer-links{
+        display: none;
+    }
+}
+
+@media (max-width : 600px){
+    .secondary-heading{
+        text-align: center;
+    }
+    .secondary-heading h2{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 400px){
+    .btn-warning {
+    padding: 0.5rem 0.2rem;
+    }
+}
+
+
+
+@media (max-width : 470px){
+
+    .nav-tabs {
+        border-bottom: 1px transparent;
+        width: 100%;
+        background-color: rgba(0,0,0,0.35);
+    }
+    .main-heading {
+        font-size: 2rem;
+        color: #DFC023;
+       
+    }
+    .form-control {
+        font-size: 0.6rem;
+    }
+    /* .footer-sign{
+        display: none;
+    } */
+    .tab-text-colour {
+        font-size: 0.5rem;
+        
+    }
+
+    /* reservation */
+
+    .reservation-border {
+        padding: 0rem;
+    }
+    
+    
+}
+
+@media (max-width : 576px){
+
+    .secondary-heading {
+        padding: 0rem 5.4rem;
+    }
+    .reservation-border {
+        padding: 0rem;
+    }
+    .btn-warning {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* @media (max-width: 365px){
+    .secondary-heading {
+    padding: 0rem 3.4rem;
+    }
+} */
